@@ -56,6 +56,9 @@ export class Calculator {
       case '÷':
         operation = 'divide'
         break
+      case '%':
+        operation = 'percentage'
+        break
       default:
         return
     }
