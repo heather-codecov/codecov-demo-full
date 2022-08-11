@@ -59,6 +59,9 @@ export class Calculator {
       case '%':
         operation = 'percentage'
         break
+       case '$':
+        operation = 'money calculation'
+        break
       default:
         return
     }
